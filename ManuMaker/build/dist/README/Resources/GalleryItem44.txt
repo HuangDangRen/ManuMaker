@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Exporting a Documentation Project
+§45
+]TEXTFIELDS§
+§TAGS[
+§Exporting a project; to export a project; export function; export html; print manual
+]TAGS§
+§ANNODRAFT[
+§
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font face="Segoe UI" size="4">To export a Project:&nbsp;</font></h3><p></p><ul><li><font face="Segoe UI">[Frame 2] Click on <i>File-&gt;Export&nbsp;</i><b>(1)&nbsp;</b></font></li><li><font face="Segoe UI">[Frame 2] Select the parent directory <b>(2)</b>&nbsp;</font><span style="font-family: 'Segoe UI';"><br>In this example, the directory of the ManuMaker project is chosen</span></li><li><font face="Segoe UI">[Frame 2] Click <i>Select Folder </i><b>(3)</b>&nbsp;to export the project.&nbsp;</font></li><li><font face="Segoe UI">The exported documentation will be saved in its own folder in the selected parent directory.&nbsp;</font></li><li><font face="Segoe UI">[Frame 2] The folder name consists of the project title as set in the project settings, appended by "Printable_HTML" <b>(4) </b>.&nbsp;</font></li><li><font face="Segoe UI">This folder is portable, since it contains all information needed for the HTML-based manual (images, logo, etc. are copied into the Printable_HTML folder)</font></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

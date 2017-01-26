@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gallery.controller.AppSettingsWindowController">
+   <children>
+      <TabPane layoutX="6.0" layoutY="6.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab fx:id="TAB_Camera" text="Camera ">
+               <content>
+                  <AnchorPane>
+                     <children>
+                        <SplitPane dividerPositions="0.48448687350835323, 0.7541766109785203" orientation="VERTICAL" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <items>
+                            <AnchorPane maxHeight="200.0" minHeight="0.0" minWidth="0.0" prefWidth="598.0">
+                                 <children>
+                                    <TitledPane collapsible="false" text="Selected Camera" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <content>
+                                          <SplitPane dividerPositions="0.4" prefHeight="160.0" prefWidth="200.0">
+                                            <items>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                                   <children>
+                                                      <Label fx:id="LBL_CamName" layoutX="15.0" layoutY="34.0" maxHeight="20.0" minHeight="20.0" prefHeight="20.0" text="CameraName" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0" />
+                                                      <Button fx:id="BT_SelectCam" layoutX="145.0" layoutY="32.0" mnemonicParsing="false" onAction="#handleSelectCam" prefHeight="25.0" prefWidth="75.0" text="Select" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="5.0" />
+                                                   </children>
+                                                </AnchorPane>
+                                              <AnchorPane fx:id="AP_CamPreview" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                                   <children>
+                                                      <ImageView fx:id="IV_CamPreview" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                      <Label layoutX="7.0" layoutY="4.0" prefHeight="20.0" prefWidth="120.0" text="Preview" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                   </children>
+                                                </AnchorPane>
+                                            </items>
+                                          </SplitPane>
+                                       </content>
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </TitledPane>
+                                 </children>
+                              </AnchorPane>
+                              <TitledPane collapsible="false" text="Camera Resolution">
+                                 <content>
+                                  <AnchorPane maxHeight="70.0" minHeight="0.0" minWidth="0.0" prefHeight="70.0" prefWidth="598.0">
+                                       <children>
+                                          <HBox layoutX="149.0" layoutY="32.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Button fx:id="BT_SetResolution" mnemonicParsing="false" onAction="#handleSetResolution" prefHeight="25.0" prefWidth="75.0" text="Set..." />
+                                                <Label fx:id="LBL_Resolution" prefHeight="25.0" prefWidth="88.0" text="width x height">
+                                                   <padding>
+                                                      <Insets left="10.0" />
+                                                   </padding>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </TitledPane>
+                              <TitledPane collapsible="false" text="Image Transformations">
+                                 <content>
+                                    <AnchorPane>
+                                       <children>
+                                          <Button fx:id="BT_RotateImage" layoutX="14.0" layoutY="32.0" mnemonicParsing="false" onAction="#handleRotateImage" prefHeight="25.0" prefWidth="115.0" text="Rotate Image" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </TitledPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+          </Tab>
+            <Tab text="Keyboard Shortcuts">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutX="28.0" layoutY="14.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <AnchorPane maxHeight="25.0" minHeight="25.0" prefHeight="25.0">
+                                 <children>
+                                    <Label contentDisplay="CENTER" text="Keyboard shortcuts: " textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane maxHeight="25.0" minHeight="25.0" prefHeight="25.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.5" layoutX="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane maxWidth="160.0" minWidth="160.0">
+                                             <children>
+                                                <Label contentDisplay="CENTER" maxWidth="80.0" minWidth="80.0" text="CTRL + S" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane>
+                                             <children>
+                                                <Label contentDisplay="CENTER" text="Save Project" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane maxHeight="25.0" minHeight="25.0" prefHeight="25.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.5" layoutX="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane maxWidth="160.0" minWidth="160.0">
+                                             <children>
+                                                <Label contentDisplay="CENTER" maxWidth="80.0" minWidth="80.0" text="CTRL + N" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane>
+                                             <children>
+                                                <Label contentDisplay="CENTER" text="New Project" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane maxHeight="25.0" minHeight="25.0" prefHeight="25.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.5" layoutX="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane maxWidth="160.0" minWidth="160.0">
+                                             <children>
+                                                <Label contentDisplay="CENTER" maxWidth="80.0" minWidth="80.0" text="CTRL + O" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane>
+                                             <children>
+                                                <Label contentDisplay="CENTER" text="Load Project" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane maxHeight="25.0" minHeight="25.0" prefHeight="25.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.5" layoutX="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane maxWidth="160.0" minWidth="160.0">
+                                             <children>
+                                                <Label contentDisplay="CENTER" maxWidth="80.0" minWidth="80.0" text="CTRL + P" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane>
+                                             <children>
+                                                <Label contentDisplay="CENTER" text="Compile &amp; show Parts List / BOM" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane maxHeight="25.0" minHeight="25.0" prefHeight="25.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.5" layoutX="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane maxWidth="160.0" minWidth="160.0">
+                                             <children>
+                                                <Label contentDisplay="CENTER" maxWidth="80.0" minWidth="80.0" text="CTRL + T" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane>
+                                             <children>
+                                                <Label contentDisplay="CENTER" text="Compile &amp; show Toolbox" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="General ">
+              <content>
+                <AnchorPane>
+                     <children>
+                        <SplitPane dividerPositions="0.5" orientation="VERTICAL" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <items>
+                              <TitledPane collapsible="false" maxHeight="200.0" prefHeight="200.0" text="Stop Motion Images: ">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                                 <content>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label maxHeight="25.0" minHeight="25.0" text="Display each frame for: " AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="10.0" layoutY="10.0" maxHeight="25.0" maxWidth="30.0" minHeight="25.0" minWidth="30.0" text="[ms]" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="0.0">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField fx:id="TF_SMPRefreshTime" layoutX="162.0" layoutY="11.0" maxHeight="25.0" maxWidth="150.0" minHeight="25.0" minWidth="150.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <AnchorPane />
+                           </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <ButtonBar layoutX="1000.0" layoutY="760.0" maxHeight="50.0" prefHeight="50.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="20.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#handleSave" text="Save" />
+            <Button mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

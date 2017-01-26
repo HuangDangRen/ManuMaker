@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Inserting a Notice or Warning
+§34
+]TEXTFIELDS§
+§TAGS[
+§insert warning; insert notice; warning label; safety chapter; danger; refine mode; refine tab
+]TAGS§
+§ANNODRAFT[
+§To insert a warning label or a notice, click the Insert Warning Label button(1) and select the desired label type(2). Load a warning pictogram from the filesystem(3). A selection of EN ISO 7010m pictograms are packaged with the ManuMaker Application. You can find them in the installation directory of the Application under: .\..\ManuMaker\app\resources\pictograms\  Fill out all the fields in the form (4) to (7) for Warnings and (4) and (5) for notices, and confirm by clicking OK(8). To insert the Warning Label into the Text, right-click in the desired location in the Rich Text editor on the Refine Tab, and select the Paste option in the context-menu.   The warning label is then inserted at the specified position in the text.  The pictogram may only be visible after reloading the slide.       
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font face="Segoe UI"><font size="4">To insert a Warning Label or a Notice</font>:</font></h3><p></p><p></p><ul><li><font face="Segoe UI">Click the <b>Insert Warning Label </b>button <b>(1)</b></font></li></ul><p></p><ul><li><font face="Segoe UI">Select the desired label type <b>(2)</b>.&nbsp;<br><br></font></li><li><font face="Segoe UI">Load a warning pictogram from the filesystem <b>(3)</b>. <br>A selection of <i>EN ISO 7010</i> pictograms are packaged with the ManuMaker application. <br>You can find them in the installation directory of the application at <i>..\ManuMaker\app\resources\pictograms\.. </i><br><br></font></li><li><font face="Segoe UI">Fill out all the the accessible text fields in the form. <b>Notices</b> only require a <b>Signal Word (4)</b>&nbsp;and a <b>Notice Text (5)</b>, <b>Warnings </b>require all fields <b>(4)</b> to <b>(7) </b>to be filled out.&nbsp;<br><br></font></li><li><font face="Segoe UI">To insert the label into the text, <i>right-click</i> in the desired location in the <b>Rich Text Editor</b> on the <b>Refine</b> tab, and select the <i>Paste</i> option in the <b>context-menu</b>.&nbsp;<br><br></font></li><li><font face="Segoe UI">The label is then inserted at the specified position in the text.  The pictogram may only be visible after reloading the slide.</font></li></ul><p></p><font face="Segoe UI">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

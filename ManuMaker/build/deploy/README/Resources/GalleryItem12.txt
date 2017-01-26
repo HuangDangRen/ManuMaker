@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Project Settings: Mandatory Fields
+§13
+]TEXTFIELDS§
+§TAGS[
+§mandatory project settings; choosing a logo; define project data; project title; product name; product version; documentation type; documentation revision number; target audience; intended readers; target group; authors name; name of author; company name; company address; publisher; load company logo; delete company logo; contact information; extra information; additional information for the title page; project path
+]TAGS§
+§ANNODRAFT[
+§
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><p><font face="Segoe UI">The <b>Project Settings Window </b>appears whenever a new project is started, or after clicking <i>Settings-&gt;Project Settings </i>in the top menu bar.</font></p><p><font face="Segoe UI">There are two types of text-input found within the project settings window:&nbsp;</font></p><p></p><ol><li><font face="Segoe UI">Text Fields: Single line text input, does not support linebreak by pressing ENTER</font></li><li><font face="Segoe UI">Text Areas: Multi line text input, make newline with ENTER</font></li></ol><p><font face="Segoe UI">All text put in this window can be appended by html codestyling (old-fashioned but effective) to get e.g. bold-printed words or linebreaks inserted to the plain-text inputs. See <b>(1)</b></font></p><p><font face="Segoe UI">Mandatory fields in the project settings:</font></p><p></p><ul><li><font face="Segoe UI"><b>Project Title (2)</b>:&nbsp;The title will only be visible in the slide list as the title of the title slide.</font></li><li><font face="Segoe UI"><b>Product Name (3)</b>: The product being documented.&nbsp;</font></li><li><font face="Segoe UI"><b>Documentation Type (4)</b>: E.g. "Assembly Manual", "User Guide" or "Maintenance Manual".</font></li><li><font face="Segoe UI"><b>Author (5)</b>: The name of the author.&nbsp;</font></li><li><font face="Segoe UI"><b>Project Path (6)</b>: Note that the path selected in the chooser dialog will be appended by a directory named "\&lt;project title&gt;\".</font></li></ul><p></p><p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

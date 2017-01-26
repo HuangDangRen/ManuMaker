@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.HTMLEditor?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gallery.controller.GalleryBrowserController">
+   <children>
+      <TabPane fx:id="TP_GalleryBrowser" minHeight="700.0" minWidth="1200.0" side="RIGHT" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab fx:id="TAB_Draft" onSelectionChanged="#handleDraftTab" text="Draft ">
+               <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane dividerPositions="0.5" layoutX="226.0" layoutY="241.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <items>
+                            <AnchorPane>
+                                 <children>
+                                    <SplitPane fx:id="SP_MainBrowser_Draft" dividerPositions="0.2" layoutX="176.0" layoutY="87.0" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <items>
+                                        <AnchorPane minWidth="200.0" prefWidth="200.0">
+                                             <children>
+                                                <VBox layoutY="101.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <AnchorPane minWidth="120.0" prefHeight="40.0" prefWidth="200.0" VBox.vgrow="NEVER">
+                                                         <children>
+                                                            <Label maxHeight="30.0" minHeight="30.0" prefHeight="30.0" text="Slides in current Gallery" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <font>
+                                                                  <Font name="System Bold" size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </AnchorPane>
+                                                      <AnchorPane fx:id="AP_SlideList_Draft" prefHeight="2000.0" prefWidth="200.0" />
+                                                   </children>
+                                                </VBox>
+                                             </children></AnchorPane>
+                                          <AnchorPane>
+                                             <children>
+                                                <TitledPane fx:id="TP_Slide_Draft" collapsible="false" onMouseClicked="#handleSlideTitle" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <content>
+                                                      <SplitPane fx:id="SP_Browser_Draft" dividerPositions="0.5">
+                                                         <items>
+                                                          <AnchorPane fx:id="AP_IVBox_Draft" minHeight="400.0" minWidth="0.0" />
+                                                            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                                               <children>
+                                                                  <SplitPane fx:id="SP_Utilities_Draft" dividerPositions="0.5, 0.5" layoutX="-42.0" layoutY="171.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                    <items>
+                                                                      <AnchorPane minHeight="200.0">
+                                                                           <children>
+                                                                              <TextArea fx:id="TA_Annotation_Draft" layoutX="-72.0" onKeyReleased="#handleDraftText" promptText="Write down some keywords about the process. This box DOES NOT support ANY formatting (Not even new lines are retained between save / load) , so don't waste time making things pretty." wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                                           </children>
+                                                                        </AnchorPane>
+                                                                      <AnchorPane fx:id="AP_TagUtils_Draft" minHeight="100.0" prefHeight="200.0" />
+                                                                      <AnchorPane fx:id="AP_MediaPlayer_Draft" maxHeight="100.0" minHeight="100.0" prefHeight="100.0" />
+                                                                    </items>
+                                                                  </SplitPane>
+                                                               </children>
+                                                            </AnchorPane>
+                                                         </items>
+                                                      </SplitPane>
+                                                   </content>
+                                                </TitledPane>
+                                             </children>
+                                          </AnchorPane>
+                                      </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane maxHeight="150.0" minHeight="120.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #4060A0;">
+                                 <children>
+                                    <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                                   <children>
+                                                      <CheckBox fx:id="CB_AutoAdd_Draft" mnemonicParsing="false" onAction="#handleLockGallery_Draft" style="-fx-text-fill: black;" text="Add new slide when &quot;&gt;&quot; is clicked at end of gallery" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font></CheckBox>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane prefHeight="50.0" prefWidth="2000.0">
+                                                   <children>
+                                                      <Label fx:id="LBL_CurrentIndex_Draft" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" style="-fx-text-fill: black;" text="Slide n/k" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <font>
+                                                            <Font name="System Bold" size="24.0" />
+                                                         </font>
+                                                         <opaqueInsets>
+                                                            <Insets />
+                                                         </opaqueInsets>
+                                                         <padding>
+                                                            <Insets right="20.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </HBox>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                             <children>
+                                                <ButtonBar buttonMinWidth="50.0" focusTraversable="false" maxHeight="120.0" minHeight="120.0" prefHeight="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <buttons>
+                                                      <Button fx:id="BT_BackEdit_Draft" maxHeight="75.0" minWidth="60.0" mnemonicParsing="false" onAction="#handleBack_View" prefHeight="75.0" prefWidth="2000.0" text="&lt;">
+                                                         <font>
+                                                            <Font name="Arial Bold" size="36.0" />
+                                                         </font>
+                                                      </Button>
+                                                      <Button fx:id="BT_RemoveComponent_Draft" maxHeight="75.0" minWidth="220.0" mnemonicParsing="false" onAction="#handleRemove" prefHeight="75.0" text="Remove..." textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font></Button>
+                                                      <Button fx:id="BT_InsertSlide_Draft" maxHeight="75.0" minWidth="220.0" mnemonicParsing="false" onAction="#handleInsertSlide" prefHeight="75.0" text="Insert Slide" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font></Button>
+                                                      <Button fx:id="BT_RecStopMotion_Draft" maxHeight="75.0" minWidth="220.0" mnemonicParsing="false" onAction="#handleRecStopMotion" prefHeight="75.0" text="Record Stop Motion" textAlignment="CENTER" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font></Button>
+                                                      <Button fx:id="BT_RecordAudio_Draft" maxHeight="75.0" mnemonicParsing="false" onAction="#handleRecordAudio" prefHeight="75.0" text="Record Audio" textAlignment="CENTER" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font>
+                                                      </Button>
+                                                      <Button fx:id="BT_OpenImgEditor_Draft" maxHeight="75.0" minWidth="220.0" mnemonicParsing="false" onAction="#handleOpenImgEditor" prefHeight="75.0" text="Open Image in Editor" textAlignment="CENTER" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font>
+                                                      </Button>
+                                                      <VBox maxHeight="75.0">
+                                                         <children>
+                                                            <AnchorPane>
+                                                               <children>
+                                                                  <Button fx:id="BT_SnapShot_Draft" maxHeight="50.0" mnemonicParsing="false" onAction="#handleSnapShot" prefHeight="50.0" text="Add Snapshot" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="12.0" />
+                                                                     </font></Button>
+                                                               </children>
+                                                            </AnchorPane>
+                                                            <AnchorPane>
+                                                               <children>
+                                                                  <Button fx:id="BT_PasteClipboard_Draft" maxHeight="25.0" mnemonicParsing="false" onAction="#handlePasteClipboard" prefHeight="25.0" text="Insert from Clipboard" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                     <font>
+                                                                        <Font name="System Bold" size="11.0" />
+                                                                     </font></Button>
+                                                               </children>
+                                                            </AnchorPane>
+                                                         </children>
+                                                      </VBox>
+                                                      <Button fx:id="BT_ForwardEdit_Draft" maxHeight="75.0" mnemonicParsing="false" onAction="#handleForward_Edit" prefHeight="75.0" text="&gt;">
+                                                         <font>
+                                                            <Font name="Arial Bold" size="36.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </buttons>
+                                                   <padding>
+                                                      <Insets right="20.0" />
+                                                   </padding>
+                                                </ButtonBar>
+                                             </children>
+                                          </AnchorPane>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab fx:id="TAB_Refine" onSelectionChanged="#handleRefineTab" text="Refine">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane dividerPositions="0.5" layoutX="226.0" layoutY="241.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <items>
+                              <AnchorPane>
+                                 <children>
+                                    <SplitPane fx:id="SP_MainBrowser_Refine" dividerPositions="0.2" layoutX="176.0" layoutY="87.0" prefHeight="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minWidth="200.0">
+                                             <children>
+                                                <VBox layoutY="101.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <AnchorPane maxHeight="30.0" minHeight="30.0" minWidth="120.0" prefHeight="30.0" prefWidth="200.0" VBox.vgrow="NEVER">
+                                                         <children>
+                                                            <Label maxHeight="30.0" minHeight="30.0" prefHeight="30.0" text="Slides in current Gallery" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <font>
+                                                                  <Font name="System Bold" size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </AnchorPane>
+                                                      <AnchorPane fx:id="AP_SlideList_Refine" prefHeight="2000.0" prefWidth="200.0" />
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane>
+                                             <children>
+                                                <TitledPane fx:id="TP_Slide_Refine" collapsible="false" onMouseClicked="#handleSlideTitle" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <content>
+                                                      <SplitPane fx:id="SP_Browser_Refine" dividerPositions="0.5">
+                                                         <items>
+                                                            <AnchorPane fx:id="AP_IVBox_Refine" minWidth="0.0" />
+                                                            <AnchorPane>
+                                                               <children>
+                                                                  <SplitPane fx:id="SP_Utilities_Refine" dividerPositions="0.52, 0.7883" orientation="VERTICAL" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                     <items>
+                                                                        <AnchorPane>
+                                                                           <children>
+                                                                              <HTMLEditor fx:id="HTMLE_Annotation_Refine" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" onInputMethodTextChanged="#handleRefineText" onKeyReleased="#handleRefineText" onMouseReleased="#handleRefineText" onScrollStarted="#handleRefineText" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                                           </children>
+                                                                        </AnchorPane>
+                                                                        <AnchorPane fx:id="AP_TagUtils_Refine" minHeight="100.0" prefHeight="200.0" />
+                                                                        <AnchorPane fx:id="AP_MediaPlayer_Refine" maxHeight="100.0" minHeight="100.0" prefHeight="100.0" />
+                                                                     </items>
+                                                                  </SplitPane>
+                                                               </children>
+                                                            </AnchorPane>
+                                                         </items>
+                                                      </SplitPane>
+                                                   </content>
+                                                </TitledPane>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane maxHeight="150.0" minHeight="120.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #254055;">
+                                 <children>
+                                    <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                                   <children>
+                                                      <CheckBox fx:id="CB_AutoAdd_Refine" mnemonicParsing="false" onAction="#handleLockGallery_Refine" style="-fx-text-fill: black;" text="Add new slide when &quot;&gt;&quot; is clicked at end of gallery" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                                         <font>
+                                                            <Font name="System Bold" size="18.0" />
+                                                         </font></CheckBox>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane prefHeight="50.0" prefWidth="2000.0">
+                                                   <children>
+                                                      <Label fx:id="LBL_CurrentIndex_Refine" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" style="-fx-text-fill: black;" text="Slide n/k" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <font>
+                                                            <Font name="System Bold" size="24.0" />
+                                                         </font>
+                                                         <opaqueInsets>
+                                                            <Insets />
+                                                         </opaqueInsets>
+                                                         <padding>
+                                                            <Insets right="20.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </HBox>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                             <children>
+                                                <ButtonBar buttonMinWidth="50.0" focusTraversable="false" maxHeight="50.0" minHeight="20.0" prefHeight="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <buttons>
+                                                      <Button fx:id="BT_BackEdit_Refine" maxHeight="75.0" minWidth="60.0" mnemonicParsing="false" onAction="#handleBack_View" prefHeight="75.0" prefWidth="2000.0" text="&lt;">
+                                                         <font>
+                                                            <Font name="Arial Bold" size="36.0" />
+                                                         </font>
+                                                      </Button>
+                                                      <Button fx:id="BT_ReloadText_Refine" maxHeight="75.0" mnemonicParsing="false" onAction="#handleReloadFromDraft" prefHeight="75.0" text="Reload Text From Draft" textAlignment="CENTER" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font></Button>
+                                                      <Button fx:id="BT_RemoveSlide_Refine" maxHeight="75.0" mnemonicParsing="false" onAction="#handleRemoveSlide" prefHeight="75.0" text="Remove Slide">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font></Button>
+                                                      <Button fx:id="BT_InsertSlide_Refine" maxHeight="75.0" minWidth="220.0" mnemonicParsing="false" onAction="#handleInsertSlide" prefHeight="75.0" text="Insert Chapter-  or Title-Slide" textAlignment="CENTER" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font></Button>
+                                                      <Button fx:id="BT_InsertWarning_Refine" maxHeight="75.0" minWidth="220.0" mnemonicParsing="false" onAction="#handleInsertWarning" prefHeight="75.0" text="Insert Warning Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font></Button>
+                                                      <Button fx:id="BT_InsertTable_Refine" maxHeight="75.0" minWidth="220.0" mnemonicParsing="false" onAction="#handleInsertTable" prefHeight="75.0" text="Insert Table" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                                                         <font>
+                                                            <Font name="System Bold" size="12.0" />
+                                                         </font></Button>
+                                                      <Button fx:id="BT_ForwardEdit_Refine" maxHeight="75.0" mnemonicParsing="false" onAction="#handleForward_Edit" prefHeight="75.0" text="&gt;">
+                                                         <font>
+                                                            <Font name="Arial Bold" size="36.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </buttons>
+                                                   <padding>
+                                                      <Insets right="20.0" />
+                                                   </padding>
+                                                </ButtonBar>
+                                             </children>
+                                          </AnchorPane>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                           </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+            <Tab fx:id="TAB_View" onSelectionChanged="#handleViewTab" text="View">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane dividerPositions="0.5" layoutX="226.0" layoutY="241.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <items>
+                              <AnchorPane>
+                                 <children>
+                                    <SplitPane fx:id="SP_MainBrowser_View" dividerPositions="0.2" layoutX="176.0" layoutY="87.0" prefHeight="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <items>
+                                          <AnchorPane minHeight="0.0" minWidth="200.0">
+                                             <children>
+                                                <VBox layoutY="101.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <children>
+                                                      <AnchorPane maxHeight="30.0" minHeight="30.0" minWidth="120.0" prefHeight="30.0" prefWidth="200.0" VBox.vgrow="NEVER">
+                                                         <children>
+                                                            <Label maxHeight="30.0" minHeight="30.0" prefHeight="30.0" text="Slides in current Gallery" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <font>
+                                                                  <Font name="System Bold" size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </AnchorPane>
+                                                      <AnchorPane fx:id="AP_SlideList_View" prefHeight="1000.0" prefWidth="200.0" />
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane>
+                                             <children>
+                                                <TitledPane fx:id="TP_Slide_View" collapsible="false" onMouseClicked="#handleSlideTitle" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <content>
+                                                      <SplitPane fx:id="SP_Browser_View" dividerPositions="0.5" minWidth="0.0">
+                                                         <items>
+                                                            <AnchorPane fx:id="AP_IVBox_View" minHeight="400.0" />
+                                                            <AnchorPane fx:id="AP_ViewUtils" prefHeight="200.0" prefWidth="200.0">
+                                                               <children>
+                                                                  <SplitPane fx:id="SP_Utilities_View" dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                     <items>
+                                                                        <AnchorPane minHeight="200.0">
+                                                                           <children>
+                                                                              <WebView fx:id="WV_Annotation_View" layoutX="-78.0" layoutY="37.0" minHeight="-1.0" minWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                                           </children>
+                                                                        </AnchorPane>
+                                                                        <AnchorPane fx:id="AP_TagUtils_View" minHeight="100.0" prefHeight="200.0" />
+                                                                     </items>
+                                                                  </SplitPane>
+                                                               </children>
+                                                            </AnchorPane>
+                                                         </items>
+                                                      </SplitPane>
+                                                   </content>
+                                                </TitledPane>
+                                             </children>
+                                          </AnchorPane>
+                                       </items>
+                                    </SplitPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane maxHeight="150.0" minHeight="120.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #555555;">
+                                 <children>
+                                    <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                             <children>
+                                                <Label fx:id="LBL_CurrentIndex_View" alignment="CENTER" contentDisplay="CENTER" maxHeight="30.0" minHeight="30.0" minWidth="500.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="30.0" prefWidth="2000.0" style="-fx-text-fill: black;" text="Slide Label" textOverrun="CENTER_ELLIPSIS" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <font>
+                                                      <Font name="System Bold" size="36.0" />
+                                                   </font>
+                                                   <opaqueInsets>
+                                                      <Insets />
+                                                   </opaqueInsets>
+                                                   <padding>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </padding>
+                                                </Label>
+                                             </children>
+                                          </AnchorPane>
+                                          <ButtonBar buttonMinWidth="50.0" focusTraversable="false" maxHeight="110.0" minHeight="110.0" prefHeight="110.0">
+                                             <buttons>
+                                                <Button fx:id="BT_Back_View" maxHeight="75.0" minWidth="60.0" mnemonicParsing="false" onAction="#handleBack_View" prefHeight="75.0" prefWidth="2000.0" text="&lt;">
+                                                   <font>
+                                                      <Font name="Arial Bold" size="36.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button fx:id="BT_Forward_View" maxHeight="75.0" mnemonicParsing="false" onAction="#handleForward_View" prefHeight="75.0" text="&gt;">
+                                                   <font>
+                                                      <Font name="Arial Bold" size="36.0" />
+                                                   </font>
+                                                </Button>
+                                             </buttons>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </ButtonBar>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                           </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

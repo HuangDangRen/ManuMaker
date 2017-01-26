@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Adding an Image to a Slide
+§17
+]TEXTFIELDS§
+§TAGS[
+§Add image; Snapshot; Paste from Clipboard; hardware documentation; documenting hardware; camera; webcam; documenting software; capturing screen content; draft mode; draft tab
+]TAGS§
+§ANNODRAFT[
+§Two ways to do it:  1. For Hardware documentation click Add Snapshot(1), to start the camera stream. You can now position the subject and your camera until you are satisfied with how it looks. Clicking the Snapshot button (1) again will capture the last picture from the camera and stop the camera stream.  2. For documenting things presented on a computer screen, copy the screen-portion to the clipboard (Using a snipping tool is recommended) and insert it using the Insert from Clipboard button (2).              
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font face="Segoe UI" size="4">There are two ways to add an image to the current slide:&nbsp;</font></h3><h4><font face="Segoe UI">For Hardware documentation&nbsp;</font></h4><p></p><ul><li><font face="Segoe UI">click <b>Add Snapshot&nbsp;(1),</b> to start the camera stream.&nbsp;</font></li><li><font face="Segoe UI">You can now position the subject and your camera until you are satisfied with how it looks.&nbsp;</font></li><li><span style="font-family: 'Segoe UI';">Clicking the</span><b style="font-family: 'Segoe UI';"> Snapshot </b><span style="font-family: 'Segoe UI';">button </span><b style="font-family: 'Segoe UI';">(1)</b><span style="font-family: 'Segoe UI';"> again will capture the last picture from the camera and stop the camera stream.&nbsp;</span></li></ul><p></p><h4><font face="Segoe UI">For documenting things presented on a computer screen&nbsp;</font></h4><p></p><ul><li><font face="Segoe UI">Copy the screen-portion to the clipboard (using a snipping tool is recommended)&nbsp;</font></li><li><font face="Segoe UI">Insert it using the <b>Insert from Clipboard</b> button<b> (2)</b>.</font></li></ul><p></p><font face="Segoe UI">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

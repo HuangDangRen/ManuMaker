@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Inserting a Table into the Annotation Text
+§35
+]TEXTFIELDS§
+§TAGS[
+§insert a table; table in text; create table in refine mode; table import form; import tables; refine mode; refine tab
+]TAGS§
+§ANNODRAFT[
+§To insert a Table, click on the Insert Table button(1) in the Refine Tab.  A form opens where you need to specify a caption(2) and an identifier(3) (e.g. Tab.Refine-1).  Next, select a table file to import by clicking Choose File...(4).  The table must be in the .html format, which can be exported from e.g. LibreOffice  by clicking File->SaveAs and selecting .html as filetype.   Click 5 to confirm your selection.   The table is now available in the system's  clipboard and can be added to the Refine Text by right-clicking in the appropriate location and selecting "Paste".   NOTICE:  The tables should not be too large in width or height, IF the manual is intended to be printed. For very tall tables in printing-oriented projects, consider adding the Table to a slide without a picture. The Export Tool will then load a template without an image for that slide, so there is more space for text.       
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font face="Segoe UI"><font size="4">To insert a Table:</font></font></h3><p></p><ul><li><span style="font-family: 'Segoe UI';">Click on the <b>Insert Table</b> button <b>(1)</b> in the <b>Refine Tab</b>.&nbsp;<br><br></span></li><li><span style="font-family: 'Segoe UI';">A form opens where you need to specify a <b>caption (2)</b> and an <b>identifier (3)</b> (e.g. 1.1). The identifier will be automatically be completed with a prefix "Tab. " when the table is generated.<br><br></span></li><li><span style="font-family: 'Segoe UI';">Next, select a table file to import by clicking <b>Choose File...(4)</b>.&nbsp;<br><br></span></li><li><span style="font-family: 'Segoe UI';">The table must be in the .html format, which can be exported from e.g. LibreOffice  by clicking File-&gt;SaveAs and selecting .html as filetype.&nbsp;<br><br></span></li><li><span style="font-family: 'Segoe UI';">Click <b>OK (5)</b> to confirm your selection. <br><br></span></li><li><span style="font-family: 'Segoe UI';">The table is now available in the system's  clipboard and can be added to the <b>Refine Text</b> by right-clicking in the appropriate location and selecting <i>Paste</i>.&nbsp;</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li></ul><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Adding a Title Slide
+§31
+]TEXTFIELDS§
+§TAGS[
+§project title slide; project title page; add slide; insert chapter- or title slide; refine mode; refine tab
+]TAGS§
+§ANNODRAFT[
+§To add a title slide for the documentation click on Insert Chapter- or Title Slide (1). Klick Select...(2) and then Title Slide(3) and confirm with OK(4).   The title slide information can be set via Settings->Project Settings. An image can be loaded to be displayed on the title slide (e.g. company logo).  After modifying the Project Settings, the title slide is automatically updated.        
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font size="4" face="Segoe UI">To add a Title Slide to the Documentation:</font></h3><p></p><ol><li><font face="Segoe UI">Click on&nbsp;<b>Insert Chapter- or Title Slide&nbsp;</b><b>(1)</b>.&nbsp;</font></li><li><font face="Segoe UI">Click <b>Select... (2)&nbsp;</b></font></li><li><font face="Segoe UI">Click <b>Title Slide (3)&nbsp;</b></font></li><li><font face="Segoe UI">Confirm with <b>OK(4)</b>.&nbsp;</font></li></ol><font face="Segoe UI">The title slide information (e.g. type of documentation, company logo to be displayed) can be set via <b>Settings-&gt;Project Settings </b>in the top <b>Menu Bar</b>.</font><p><font face="Segoe UI">After modifying the <b>Project Settings</b>, the <b>Title Slide </b>is automatically updated. &nbsp; &nbsp;</font></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

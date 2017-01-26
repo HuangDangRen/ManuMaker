@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Adding a Stop Motion Picture
+§22
+]TEXTFIELDS§
+§TAGS[
+§Stop Motion Image; stop motion picture; Image Series; GIF; Camera; Webcam; Paste from Clipboard; move up; move image up; move down; move image down; draft mode; draft tab
+]TAGS§
+§ANNODRAFT[
+§Click the button Record Stop Motion (Frame 1, marked in red) to open the Stop Motion Tool.  In frame 2: click Add Frame (Cam) (1) to add an image using the webcam. this works like the standard snapshot tool, first click starts the camera stream, second stops the steam and gets the last picture. Click Add Frame (Paste) (2) to insert an image from the clipboard.  To delete an image frame in the series, select it in the frame list (4) and click Delete Frame (3).  Selecting an item in the frame list loads the respective image into the main image view for inspection.  Select an item in the list and click Move Up (5) or Move Down (6) to move it up or down one step.   Click OK to add the new Stop Motion Image to the current slide.   An existing Stop Motion Image can be edited by clicking Record Stop Motion (first frame, marked in red). A dialog will offer the choice to edit the existing Stop Motion Image or discard it and create a new one.              
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font size="4" face="Segoe UI">To add a Stop Motion Picture:&nbsp;</font></h3><p></p><ul><li><font face="Segoe UI">Click the button <b>Record Stop Motion</b> (Frame 1, marked in red) to open the <b>StopMotion Tool</b>.&nbsp;<br><br></font></li><li><font face="Segoe UI">In Frame 2: click <b>Add Frame (Cam) (1)</b> to add an image using the webcam. This works like the standard snapshot tool, first click starts the camera stream, second stops the steam and gets the last picture.</font></li></ul><ul><li><font face="Segoe UI">Click <b>Add Frame (Paste) (2)</b> to insert an image from the clipboard.&nbsp;<br><br></font></li><li><font face="Segoe UI">To delete an image frame in the series, select it in the frame list <b>(3)</b> and click <b>Delete Frame (4)</b>.&nbsp;<br><br></font></li><li><font face="Segoe UI">Selecting an item in the frame list loads the respective image into the&nbsp;<b>Image View</b> for inspection.&nbsp;<br><br></font></li><li><font face="Segoe UI">Select an item in the list and click <b>Move Up (5)</b> or<b> Move Down (6)</b> to move it up or down one step.&nbsp;<br><br></font></li><li><font face="Segoe UI">Click <b>OK</b> to add the new stop motion picture to the current slide.   An existing stop motion picture can be edited by clicking <b>Record Stop Motion</b> (first frame, marked in red). A dialog will offer the choice to edit the existing stop motion picture or discard it and create a new one.</font></li></ul><p></p><font face="Segoe UI">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

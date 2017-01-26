@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Navigating forward
+§18
+]TEXTFIELDS§
+§TAGS[
+§Navigation; Navigate; Forward; Back; Backwards; next slide; previous slide:; draft mode; draft tab
+]TAGS§
+§ANNODRAFT[
+§Click on the forward button (1) to navigate to the next slide.   If the checkbox (2) is checked, clicking forward at the last slide in the series will add a new blank slide to the end off the Gallery. When the box is unchecked, the navigation buttons do not modify the Gallery.  The back button navigates to the slide before the current one.          
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font size="4" face="Segoe UI">Navigation basics:</font></h3><p></p><ul><li><font face="Segoe UI">Click on the forward button <b>(1)</b> to navigate to the next slide.</font></li><li><font face="Segoe UI">If the checkbox<b> (2)</b> is checked, clicking forward at the last slide in the series will add a new blank slide to the end off the Gallery.&nbsp;</font></li><li><font face="Segoe UI">When the box <b>(2)</b> is unchecked, the navigation buttons do not modify the Gallery.&nbsp;</font></li><li><font face="Segoe UI">The back button <b>(3)</b> navigates to the slide before the current one.</font></li></ul><p></p><font face="Segoe UI">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

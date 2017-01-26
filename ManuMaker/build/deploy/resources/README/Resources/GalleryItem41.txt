@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Compiling the Parts List / BOM
+§42
+]TEXTFIELDS§
+§TAGS[
+§Parts List; partslist; project bom; part tags; list of parts; list of components; used components; components used; view mode; view tab
+]TAGS§
+§ANNODRAFT[
+§To show the complete list of parts needed during this project, click on View in the Menu Bar and select Show Compiled Parts List (BOM) (1) The shortcut CTRL + ^ can also be used.  The BOM Window (2) will open and diplay all the required parts from all slides.        
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font face="Segoe UI" size="4">List of all parts used in the project:</font></h3><p></p><p></p><ol><li><font face="Segoe UI">[Frame 1] click on <b>View</b> in the Menu Bar and select Show<b> Compiled Parts List (BOM) (1)</b> The shortcut <i>CTRL + P</i> can also be used<br><br></font></li><li><font face="Segoe UI">[Frame 2] The <b>BOM Window (2)</b> will open and diplay all the required parts from all slides.  &nbsp;</font>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li></ol><p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

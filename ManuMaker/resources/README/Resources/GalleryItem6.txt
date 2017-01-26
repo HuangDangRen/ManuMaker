@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Resizing the views
+§7
+]TEXTFIELDS§
+§TAGS[
+§resize window elements; gallery browser; image view; annotation panel; slide list:
+]TAGS§
+§ANNODRAFT[
+§
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font face="Segoe UI">The Gallery<font size="4"> </font>Browser consists of four major sections:&nbsp;</font></h3><p></p><p><ul><li><font face="Segoe UI">The Main Button Bar at the bottom of the window, which is not resizable to a significant degree.</font></li></ul></p><ul><li><font face="Segoe UI">The Slide List on the left side of the window<br></font></li><li><font face="Segoe UI">The Image View in the center</font></li><li><span style="font-family: 'Segoe UI';">The Annotation Panel with text, tags and audio features.</span></li></ul><p><font face="Segoe UI">The two vertical separators (marked with long red lines) can both be moved horizontally.&nbsp;</font></p><p><font face="Segoe UI">The separator <b>(1) </b>between Slide List and Image View can be moved as far as the separator <b>(2) </b>between image view and Annotation Panel, and vice versa.</font></p><p><font face="Segoe UI">Both <b>(1) </b>and <b>(2) </b>are limited in how far they can move towards the frame of the window, as both Slide List and Annotation Panel have a minimum width, as denoted by the shorter vertical lines in the picture.&nbsp;</font></p><p><font face="Segoe UI"><br></font></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Application Settings: General
+§12
+]TEXTFIELDS§
+§TAGS[
+§stop motion image delay; stop motion picture delay; display time; refresh rate
+]TAGS§
+§ANNODRAFT[
+§
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><p></p><h3><font face="Segoe UI" size="4">The General Tab:</font></h3><p><font face="Segoe UI">As of ManuMaker V1.0, the application setting's <i>General</i> tab only contains the delay-setting for stop-motion pictures, which defines the duration every frame in the image series is displayed.&nbsp;</font></p><p><font face="Segoe UI">The value can be set between 250ms and 25000ms (0.25s to 25s, respectively).</font></p><p><font face="Segoe UI">The given value must be a positive integer.&nbsp;</font></p><p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§

@@ -1,0 +1,22 @@
+§AUDIOPATH[
+§
+]AUDIOPATH§
+§PARTS[
+§
+]PARTS§
+§TOOLS[
+§
+]TOOLS§
+§TEXTFIELDS[
+§Search Filters
+§40
+]TEXTFIELDS§
+§TAGS[
+§search category; search categories; tags; toolbox; parts list; bom; view mode; view tab
+]TAGS§
+§ANNODRAFT[
+§To search only for a specific type of keywords, e.g. parts or tools only, click on the Tag Search dropdown menu (1) at the bottom left of the slide list, and select the keyword-categories you wish to search for.   By default, all categories are enabled.           
+]ANNODRAFT§
+§ANNOFINAL[
+§<html dir="ltr"><head></head><body contenteditable="true"><h3><font face="Segoe UI" size="4">Search by category:&nbsp;</font></h3><p><font face="Segoe UI">To search only for a specific type of keywords, e.g. parts or tools,&nbsp;</font><span style="font-family: 'Segoe UI';">click on the <b>Tag Search </b>dropdown menu <b>(1) </b>at the bottom left of the slide list, and select the keyword-categories you wish to search for.&nbsp;</span></p><p><span style="font-family: 'Segoe UI';">By default, all categories are enabled.</span></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</body></html>&nbsp;&nbsp;
+]ANNOFINAL§
