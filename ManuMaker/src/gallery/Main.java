@@ -144,7 +144,7 @@ public class Main extends Application {
 			rootLayoutLoader.setLocation(Main.class.getResource("view/RootLayout.fxml"));
 			this.BP_RootLayout = (BorderPane) rootLayoutLoader.load();
 			this.rootLayoutScene = new Scene(this.BP_RootLayout);
-			this.rootLayoutScene.getStylesheets().add(getClass().getResource("display.css").toExternalForm());
+			//this.rootLayoutScene.getStylesheets().add(getClass().getResource("display.css").toExternalForm());
 
 			this.rootLayoutCTRL = rootLayoutLoader.getController();
 			this.primaryStage.setScene(this.rootLayoutScene);
